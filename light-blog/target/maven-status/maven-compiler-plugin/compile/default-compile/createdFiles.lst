@@ -1,1 +1,3 @@
 com\light\LightBlogApplication.class
+com\light\controller\CategoryController.class
+com\light\controller\ArticleController.class

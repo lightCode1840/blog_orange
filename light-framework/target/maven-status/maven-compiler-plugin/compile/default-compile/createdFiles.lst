@@ -1,0 +1,15 @@
+com\light\mapper\ArticleMapper.class
+com\light\domin\ResponseResult.class
+com\light\utils\WebConfig.class
+com\light\constants\SystemConstants.class
+com\light\service\CategoryService.class
+com\light\vo\HotArticleVo.class
+com\light\mapper\CategoryMapper.class
+com\light\service\impl\CategoryServiceImpl.class
+com\light\vo\CategoryVo.class
+com\light\service\impl\ArticleServiceImpl.class
+com\light\utils\BeanCopyUtils.class
+com\light\domin\entity\Category.class
+com\light\domin\entity\Article.class
+com\light\enums\AppHttpCodeEnum.class
+com\light\service\ArticleService.class

@@ -1,10 +1,12 @@
 package com.light.domin.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 import java.util.Date;
 
@@ -21,6 +23,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @TableName("sg_article")
+@Accessors(chain = true)
 public class Article  {
     @TableId
     private Long id;
@@ -52,7 +55,8 @@ public class Article  {
     private Date updateTime;
     //删除标志（0代表未删除，1代表已删除）
     private Integer delFlag;
-
+    @TableField(exist = false)
+    private String categoryName;
 
 }
 
