@@ -56,6 +56,7 @@ public class Article  {
     //删除标志（0代表未删除，1代表已删除）
     private Integer delFlag;
     @TableField(exist = false)
+    //设置该注解的原因是：防止报错，因为数据库中Article表中没有该字段
     private String categoryName;
 
 }
